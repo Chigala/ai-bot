@@ -26,7 +26,7 @@ export const {
       return token
     },
     authorized({ auth }) {
-      return !!auth?.user
+      return !auth?.user
     }
   },
   pages: {
